@@ -1,0 +1,31 @@
+.banner{
+    height: 100vh;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    color: #fff;
+}
+.banner-container{
+    width: 40vw;
+}
+
+.banner h1{
+    font-size: 3rem;
+    font-weight: 900ss;
+}
+
+
+.banner-container a{
+    text-decoration: none;
+    padding:10px;
+    color: white;
+     border-radius: 5px;
+     background-color: rgba(1, 1, 1, 0.5);
+    
+    display: inline-block;
+    margin: 1rem;
+}
